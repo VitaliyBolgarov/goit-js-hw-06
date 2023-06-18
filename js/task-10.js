@@ -36,6 +36,9 @@ function destroyBoxes() {
 }
 
 function createBoxes(amount) {
+  inputNumberEl.value = '';
+  divBoxesEl.innerHTML = '';
+  
   let size = 30;
   const boxesArr = [];
   for (let i = 0; i < amount; i += 1) {
