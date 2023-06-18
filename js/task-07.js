@@ -1,7 +1,7 @@
 const inputRangeEl = document.getElementById('font-size-control');
 const textEl = document.getElementById('text');
 
-textEl.style.fontSize = `${currentTarget.value}px`;
+// textEl.style.fontSize = `${currentTarget.value}px`;
 
 const fontSizeControl = ({ currentTarget }) =>
     (textEl.style.fontSize = `${currentTarget.value}px`);
